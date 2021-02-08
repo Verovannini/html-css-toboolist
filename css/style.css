@@ -42,21 +42,93 @@ header{
 
 .add a{
     text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7px;
 }
 
 .add-task{
     background-color: #47adf1;
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    
 }
 
 .add-section{
     background-color: white;
     color: lightgray;
-    padding: 10px;
     border: 1px solid lightgray;
+}
+
+.list{
+    margin-top: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul h3{
+    display: inline-block;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+.check{
+    color: #64c0a9;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #64c0a9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.not-done{
+    color: red;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.rettangolo{
+    padding: 7px;
     border-radius: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.editorial{
+    background-color: #47adf1;
+}
+
+.goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0ca32;
+}
+
+.task{
+   padding: 10px 0; 
 }
 /* FINE MAIN */
 

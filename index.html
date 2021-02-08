@@ -1,30 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <img class="logo"src="img/logo.png" alt="logo">
-        <span class="logo-text">Toboolist</span>
-    </header>
-    <!-- Fine Header -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <span class="logo-text">Toboolist</span>
+        </header>
+        <!-- Fine Header -->
 
-    <!-- Main -->
-    <main>
-        <div class="container">
-            <div class="add">
-                <a class="add-task" href="#">Add Task</a>
-                <a class="add-section" href="#">Add Section</a>
+        <!-- Main -->
+        <main>
+            <!-- Inizio Container -->
+            <div class="container">
+                <div class="add">
+                    <a class="add-task" href="#">Add Task</a>
+                    <a class="add-section" href="#">Add Section</a>
+                </div>
+
+                <!-- Inizio lista -->
+                <div class="list">
+                    <ul>
+                        <!-- Primo elemento lista -->
+                        <li>
+                            <span>&#9662;</span><h3>New Task</h3>
+                            <ul>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Quarterly Newsletter
+                                    <span class="rettangolo editorial">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Secondo elemento lista -->
+                        <li>
+                            <span>&#9662;</span><h3>Today</h3>
+                            <ul>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Recruiting blog post
+                                    <span class="rettangolo editorial">Editorial</span>
+                                </li>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Mobile app launch
+                                    <span class="rettangolo goals">Q1 Goals</span>
+                                </li>
+                                <li class="task">
+                                    <span class="not-done">&#9587;</span>
+                                    Interview John H.
+                                    <span class="rettangolo recruiting">Recruiting</span>
+                                </li>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Summit update to mobile storefronts
+                                    <span class="rettangolo mobile">Mobile</span>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Terzo elemento lista -->
+                        <li>
+                            <span>&#9662;</span><h3>Upcoming</h3>
+                            <ul>
+                                <li class="task">
+                                    <span class="not-done">&#10003;</span>
+                                    Schedule meeting with Alex
+                                </li>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Homepage refresh
+                                    <span class="rettangolo website">Website</span>
+                                </li>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Onboard new sales team members
+                                    <span class="rettangolo sales">Sales</span>
+                                </li>
+                                <li class="task">
+                                    <span class="check">&#10003;</span>
+                                    Review editorial calendar
+                                    <span class="rettangolo editorial">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!-- Fine lista -->
+
             </div>
-        </div>
-    </main>
-    <!-- Fine Main -->
+            <!-- Fine Container -->
+        </main>
+        <!-- Fine Main -->
 
-</body>
+    </body>
 </html>
